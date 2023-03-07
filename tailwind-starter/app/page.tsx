@@ -6,7 +6,8 @@ import HamzaButton from "./hamza_button";
 import AdilButton from "@/components/adil_button";
 import Navbar from "@/components/navbar";
 import Team from "@/components/team";
-
+import Reviews from "@/components/reviews";
+import Subscribe from "@/components/subscribe";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
     <>
       <Navbar />
       <Team />
+      <Reviews />
+      <Subscribe />
     </>
   );
 }

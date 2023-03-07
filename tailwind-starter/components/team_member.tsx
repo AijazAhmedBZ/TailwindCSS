@@ -4,13 +4,16 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function TeamMember() {
   return (
-    <div className="m-12">
+    <div className="flex m-12 items-center">
       <img
         src="https://via.placeholder.com/150"
         alt="user avater"
-        className="rounded-full"
+        className="rounded-full shadow-xl"
       />
-      <p>Full Name</p>
+      <div className="ml-6">
+        <p className="text-2xl font-bold">Full Name</p>
+        <p className="text-lg">Title</p>
+      </div>
     </div>
   );
 }
