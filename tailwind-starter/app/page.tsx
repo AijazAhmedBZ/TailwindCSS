@@ -8,15 +8,21 @@ import Navbar from "@/components/navbar";
 import Team from "@/components/team";
 import Reviews from "@/components/reviews";
 import Subscribe from "@/components/subscribe";
+import FlexContainer from "@/components/flexContainer";
+import Footer from "@/components/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      {/*
       <Navbar />
       <Team />
       <Reviews />
       <Subscribe />
+      <FlexContainer />
+  */}
+      <Footer />
     </>
   );
 }
